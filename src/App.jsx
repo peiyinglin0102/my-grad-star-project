@@ -281,14 +281,7 @@ export default function App() {
       {/* 團隊與 footer */}
       <footer className="py-20 bg-slate-900 text-slate-500">
         <div className="container mx-auto px-4 text-center">
-          <div className="flex justify-center gap-6 mb-12">
-            {['林沛瑩', '林家儀', '余秀槿', '黃乙珊'].map((name) => (
-              <span key={name} className="px-4 py-2 bg-slate-800 rounded-full text-slate-300 font-bold text-sm">
-                {name}
-              </span>
-            ))}
-          </div>
-          <p className="mb-4">© 2026 靜宜大學人工智慧應用學系畢業專題 - 星星像應團隊</p>
+          <p className="mb-4">© 2026 Pei_ying</p>
           <p className="text-xs uppercase tracking-[0.3em]">AI-Powered Emotion Recognition for ASD Children</p>
         </div>
       </footer>
